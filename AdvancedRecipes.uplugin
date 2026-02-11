@@ -1,11 +1,11 @@
 {
 	"FileVersion": 3,
-	"Version": 1,
-	"VersionName": "1.0.0",
+	"Version": 2,
+	"VersionName": "2.0.0",
 	"FriendlyName": "Advanced Recipes",
 	"Description": "Utility library to help mods create recipes with extra info or special properties.",
 	"Category": "Modding",
-	"CreatedBy": "Robb, AngryBeaver",
+	"CreatedBy": "Robb, AngryBeaver, AniViRus Productions",
 	"CreatedByURL": "https://github.com/budak7273/AdvancedRecipes",
 	"DocsURL": "https://ficsit.app/mod/AdvancedRecipes",
 	"MarketplaceURL": "",
@@ -25,9 +25,10 @@
 		{
 			"Name": "SML",
 			"Enabled": true,
-			"SemVersion": "^3.7.0"
+			"SemVersion": "^3.11.3"
 		}
 	],
-	"SemVersion": "1.0.0",
-	"AcceptsAnyRemoteVersion": true
+	"SemVersion": "2.0.0",
+	"AcceptsAnyRemoteVersion": true,
+	"GameVersion": ">=455399"
 }

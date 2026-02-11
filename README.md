@@ -1,39 +1,35 @@
 # Advanced Recipes
 
-**Multiplayer Compatible!** _Can also run as a client-side only mod as long as the server has SML installed._
+**Multiplayer Compatible!** *Can also run as a client-side only mod as long as the server has SML installed.*
 
-_If you enjoy my work, please consider donating to my [completely optional tip jar](https://ko-fi.com/robb4)._
+*If you enjoy my work, please consider donating to my* [*completely optional tip jar*](https://ko-fi.com/robb4)*.*
 
-This mod adds no content of its own.
-It enables other mods to supply additional properties for non-standard recipes
-to help explain them to the user.
+This mod adds no content of its own, only adjusts various displays of recipes. It also enables other mods to supply additional properties for recipes
 
 ## Features
 
-- Make machine ingredients that cost '0' of an item display as "Catalyst" items instead of "0"
-  - ![Catalyst image](https://i.imgur.com/W76JLf2.png)
+* Make ingredients that cost '0' of an item display as "Catalyst" items instead of "0"
+
+  * The same applies to recipe displays in Codex, tooltips and anywhere else!
+  * !\[Catalyst image](https://i.imgur.com/W76JLf2.png)
+
+* Make machine products that cost '0' of an item display as "Dispersed" items instead of "0"
+* Make milestones/researches display name of the recipe instead of its first product
 
 ## Mods Using This Mod
 
-- [Beaver's Bio Tweaks](https://ficsit.app/mod/AB_BioTweaks)
+* [Beaver's Bio Tweaks](https://ficsit.app/mod/AB_BioTweaks)
 
 ## Planned Features
 
-- Allow recipes to supply descriptions viewable to the user in the Codex and machines
-- Distingush Advanced Recipes in the HUB and MAM interface
-- Rename HUB and MAM recipe unlocks to display their recipe name instead of the first product item name
-- Add a new tab to the Codex that allows browsing all Advanced Recipes to view their details
-- Rename recipes in tooltips/codex with their recipe names, if they have one
-  - [TFIT](https://ficsit.app/mod/TFIT) already does this
-- Adjust recipe tooltips to say "*" of a Catalyst item instead of "0" of a Catalyst item
+* Allow to supply recipes with extra data (recipe descriptions, custom recipe icons) viewable to the user in the Codex, machines and other recipe info displays
 
 ## For Mod Developers
 
 This mod is open source and I (Robb) will not be vanishing on you any time soon.
 
-Documentation coming Soon™.
-For now, this mod's one feature will take effect on any recipe with a zero-count ingredient
-in any machine that makes use of the vanilla production UI.
+This mod's features take effect on any vanilla-based UI.
 
-<!-- This mod currently only takes effect if your recipe class implements the IARAdvancedRecipeDataProvider interface.
-This may change in the future. -->
+Sometimes no item recipe has a name matching its first product name (i.e. Ficsite Ingot, Power Shard, Medical Inhaler). To make the mod ignore a certain recipe unlock, apply ***Recipe.Original*** content tag to it via Content Tag Addition Table
+
+Update 2.0.0 provided by AniViRus Productions
