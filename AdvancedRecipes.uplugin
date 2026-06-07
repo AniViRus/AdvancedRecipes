@@ -1,7 +1,7 @@
 {
 	"FileVersion": 3,
 	"Version": 2,
-	"VersionName": "2.0.0-pre.1",
+	"VersionName": "2.0.0-pre.2",
 	"FriendlyName": "Advanced Recipes",
 	"Description": "Utility library to help mods create recipes with extra info or special properties.",
 	"Category": "Modding",
@@ -25,10 +25,11 @@
 		{
 			"Name": "SML",
 			"Enabled": true,
-			"SemVersion": "^3.11.3"
+			"SemVersion": "^3.12.0"
 		}
 	],
-	"SemVersion": "2.0.0-pre.1",
+	"SemVersion": "2.0.0-pre.2",
 	"AcceptsAnyRemoteVersion": true,
-	"GameVersion": ">=455399"
+	"GameVersion": ">=491125",
+	"RequiredOnRemote": false
 }

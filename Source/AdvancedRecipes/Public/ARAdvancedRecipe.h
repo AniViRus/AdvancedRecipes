@@ -9,7 +9,7 @@
  * Convenience class that implements IARAdvancedRecipeDataProvider intended to be used as a parent class for FGRecipes defined as blueprint assets.
  */
 UCLASS(Blueprintable)
-class ADVANCEDRECIPES_API UARAdvancedRecipe : public UFGRecipe, public IARAdvancedRecipeDataProvider
+class ADVANCEDRECIPES_API UARAdvancedRecipe : public UFGRecipe
 {
 	GENERATED_BODY()
 
